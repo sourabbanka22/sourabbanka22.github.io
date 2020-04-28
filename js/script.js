@@ -117,7 +117,9 @@ $(document).ready(function() {
 	$("[data-fancybox]").fancybox();
 
 
-	$(".items").isotope({
+
+
+	$(".projectItems").isotope({
 		filter: '*',
 		animationOptions: {
 			duration: 1500,
@@ -133,7 +135,7 @@ $(document).ready(function() {
 
 		var selector = $(this).attr("data-filter");
 
-		$(".items").isotope({
+		$(".projectItems").isotope({
 			filter: selector,
 			animationOptions: {
 				duration: 1500,
@@ -144,7 +146,6 @@ $(document).ready(function() {
 
 		return false;
 	});
-
 
 
 	$("#navigation li a").click(function(e) {

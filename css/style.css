@@ -319,6 +319,10 @@ body {
 	width: 100%;
 }
 
+.portfolioSection{
+	margin-bottom: 5px;
+}
+
 .allPortfolio, .appsPortfolio, .apisPortfolio, .websitesPortfolio{
 	transition: transform .2s;
 	border-radius: 10px;

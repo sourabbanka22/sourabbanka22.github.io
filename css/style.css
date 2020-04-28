@@ -408,6 +408,10 @@ body {
     transition: all 0.2s linear, 1s;
 }
 
+.items{
+	overflow: hidden;
+}
+
 .items .item:hover .imageOverlay {
 	opacity: 1;
 }
